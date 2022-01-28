@@ -8,10 +8,10 @@ import NavBar from './NavBar'
 const Header = () => {
   return (
     <Head>
-      <meta name="description" content="nextjs-quick-start" />
+      <meta name="description" content="m-joy666-cn" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
       <link rel="icon" href="/favicon.ico" />
-      <title>nextjs-quick-start</title>
+      <title>m-joy666-cn</title>
     </Head>
   )
 }
@@ -41,13 +41,7 @@ const Layout = ({ children }: Props) => {
     <>
       <Header />
       <main>
-        <div className="text-right">
-          <LocaleSwitch />
-        </div>
-        <div className="mt-6">
-          <NavBar />
-        </div>
-        <div className="mt-6">{children}</div>
+        <div>{children}</div>
       </main>
       <Footer />
     </>
