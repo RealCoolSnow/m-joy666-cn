@@ -7,7 +7,7 @@ type Props = {
 const PageTitle = ({ title }: Props) => {
   return (
     <Head>
-      <title>{title} - m-joy666-cn</title>
+      <title>{title} - joy666.cn</title>
     </Head>
   )
 }
